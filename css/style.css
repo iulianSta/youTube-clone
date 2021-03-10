@@ -73,3 +73,8 @@
   align-items: center;
   flex-direction: column-reverse;
 }
+
+.profile-picture {
+  width: 5vw;
+  height: 7vh;
+}
