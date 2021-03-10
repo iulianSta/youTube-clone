@@ -69,6 +69,7 @@
   width: 90vw;
   height: 20vh;
   display: flex;
-  justify-content: center;
-  flex-direction: column-reverse;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
 }
