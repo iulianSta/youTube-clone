@@ -3,3 +3,27 @@
   margin: 0;
   padding: 0;
 }
+
+.top-menu {
+  border: red dashed 1px;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.top-menu div ul {
+  border: deepskyblue solid 1px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top-menu div ul li {
+  border: olive dashed 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
