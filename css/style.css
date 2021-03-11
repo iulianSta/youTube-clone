@@ -37,13 +37,14 @@
   width: 100vw;
   height: 95vh;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .left-side-menu {
   border: red dashed 1px;
   width: 10vw;
-  height: 93vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +57,7 @@
 .left-side-menu div ol ul {
   border: dimgrey solid 1px;
   width: 10vw;
-  height: 5.33vh;
+  height: 5.4vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
