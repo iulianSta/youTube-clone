@@ -93,7 +93,8 @@
   height: 7vh;
 }
 
-.top-videos div img {
+.top-videos div img,
+.bottom-videos div img {
   width: 15vw;
   height: 15vh;
 }
