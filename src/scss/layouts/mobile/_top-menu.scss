@@ -1,0 +1,22 @@
+// Top menu style
+.top-menu {
+  border: red dashed 1px;
+  width: 100vh;
+  height: 10vh;
+  @include flex;
+  flex-direction: row;
+  nav {
+    @include size;
+  }
+
+  ul {
+    @include size;
+    border: deepskyblue solid 1px;
+    @include flex;
+  }
+
+  li {
+    border: olive dashed 1px;
+    list-style: none;
+  }
+}
