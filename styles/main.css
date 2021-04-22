@@ -6078,7 +6078,7 @@ readers do not read off random characters that represent icons */
 
 .top-menu {
   border: red dashed 1px;
-  width: 100vh;
+  width: 100vw;
   height: 10vh;
   display: flex;
   justify-content: center;
