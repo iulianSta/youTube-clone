@@ -2,19 +2,22 @@
 .top-menu {
   border: red dashed 1px;
   width: 100vw;
-  height: 15vh;
+  height: 20vh;
   @include flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
+
   ul {
     @include size;
     border: deepskyblue solid 1px;
     @include flex;
+    justify-content: space-evenly;
   }
 
   li {
     border: olive dashed 1px;
     list-style: none;
+    padding: 0.5em;
   }
 }
 // User profile picture
