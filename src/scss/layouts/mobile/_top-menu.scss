@@ -1,6 +1,5 @@
 // Top menu style
 .top-menu {
-  border: red dashed 1px;
   width: 100vw;
   height: 20vh;
   @include flex;
@@ -9,17 +8,26 @@
 
   ul {
     @include size;
-    border: deepskyblue solid 1px;
     @include flex;
     justify-content: space-evenly;
   }
 
   li {
-    border: olive dashed 1px;
     list-style: none;
     padding: 0.5em;
+    &:nth-child(2) {
+      font-weight: bold;
+
+      & > i {
+        color: red;
+      }
+    }
+    sup {
+      font-weight: normal;
+    }
   }
 }
+
 // User profile picture
 .my-profile {
   width: 1rem;
