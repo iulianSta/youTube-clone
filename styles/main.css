@@ -6118,9 +6118,9 @@ readers do not read off random characters that represent icons */
 
 @media (max-width: 480px) {
   .top-menu {
-    border: red dashed 1px;
     width: 100vw;
     height: 20vh;
+    font-family: "Yanone Kaffeesatz", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6130,16 +6130,23 @@ readers do not read off random characters that represent icons */
   .top-menu ul {
     width: 100%;
     height: 100%;
-    border: deepskyblue solid 1px;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
   }
   .top-menu li {
-    border: olive dashed 1px;
     list-style: none;
     padding: 0.5em;
+  }
+  .top-menu li:nth-child(2) {
+    font-weight: bolder;
+  }
+  .top-menu li:nth-child(2) > i {
+    color: red;
+  }
+  .top-menu li sup {
+    font-weight: normal;
   }
 
   .my-profile {
