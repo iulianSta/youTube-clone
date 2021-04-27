@@ -2,6 +2,7 @@
 .top-menu {
   width: 100vw;
   height: 20vh;
+  font-family: $yanone;
   @include flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
@@ -16,10 +17,10 @@
     list-style: none;
     padding: 0.5em;
     &:nth-child(2) {
-      font-weight: bold;
+      font-weight: bolder;
 
       & > i {
-        color: red;
+        color: $red;
       }
     }
     sup {
