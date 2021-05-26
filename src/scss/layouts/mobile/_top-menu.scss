@@ -1,8 +1,8 @@
 // Top menu style
 .top-menu {
   width: 100vw;
-  height: 20vh;
-  font-family: $yanone;
+  height: 15vh;
+  font-family: $roboto;
   @include flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
@@ -31,6 +31,6 @@
 
 // User profile picture
 .my-profile {
-  width: 1rem;
-  height: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
