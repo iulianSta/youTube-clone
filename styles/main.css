@@ -6119,8 +6119,8 @@ readers do not read off random characters that represent icons */
 @media (max-width: 480px) {
   .top-menu {
     width: 100vw;
-    height: 20vh;
-    font-family: "Yanone Kaffeesatz", sans-serif;
+    height: 15vh;
+    font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6150,8 +6150,8 @@ readers do not read off random characters that represent icons */
   }
 
   .my-profile {
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 
