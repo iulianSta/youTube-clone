@@ -1,4 +1,24 @@
 .bottom-section {
+  width: 100vw;
   @include flex;
   flex-direction: column;
+  text-align: left;
+
+  .header {
+    width: 100vw;
+    @include flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    nav ul {
+      @include flex;
+      flex-direction: column;
+    }
+  }
+
+  .top-header {
+    @include flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
 }
