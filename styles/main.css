@@ -130,11 +130,32 @@ img {
     flex-direction: column;
   }
   .bottom-section .top-header {
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 2rem;
+  }
+  .bottom-section .top-header div {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .profile-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .profile-picture {
+    border-radius: 50%;
   }
 
   .video-area {
