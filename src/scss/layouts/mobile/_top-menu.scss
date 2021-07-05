@@ -6,6 +6,7 @@
   @include flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
+  margin-bottom: 2em;
 
   ul {
     @include size;
