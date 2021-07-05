@@ -6156,9 +6156,8 @@ readers do not read off random characters that represent icons */
   }
 
   .bars-menu {
-    width: 2rem;
-    height: 2rem;
-    border: red 1px solid;
+    width: 1.4rem;
+    height: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6166,13 +6165,17 @@ readers do not read off random characters that represent icons */
   }
 
   .bars-top,
-.bard-mid,
-.bars-bot {
-    width: 2rem;
+.bars-mid,
+.bars-bottom {
+    width: 1.4rem;
     height: 0.2rem;
     background-color: black;
-    margin-top: 0.2rem;
-    margin-bottom: 0.5rem;
+    border-radius: 10px;
+  }
+
+  .bars-top,
+.bars-mid {
+    margin-bottom: 0.2rem;
   }
 }
 @media only screen and (min-width: 1281px) {
