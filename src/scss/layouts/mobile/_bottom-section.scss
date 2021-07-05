@@ -17,8 +17,25 @@
   }
 
   .top-header {
+    width: 100vw;
     @include flex;
     flex-direction: column;
     margin-bottom: 2rem;
+
+    div {
+      width: 100vw;
+      @include flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+    }
   }
+}
+
+.profile-area {
+  @include flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+.profile-picture {
+  border-radius: 50%;
 }
