@@ -37,24 +37,22 @@
 }
 
 .bars-menu {
-  width: 2rem;
-  height: 2rem;
-  border: red 1px solid;
+  width: 1.4rem;
+  height: 1rem;
   @include flex;
   flex-direction: column;
 }
 
 .bars-top,
-.bard-mid,
-.bars-bot {
-  width: 2rem;
+.bars-mid,
+.bars-bottom {
+  width: 1.4rem;
   height: 0.2rem;
   background-color: black;
-  margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
+  border-radius: 10px;
 }
 
-// .bars-top,
-// .bard-mid {
-//   margin: 0.3rem 0 0.3rem 0;
-// }
+.bars-top,
+.bars-mid {
+  margin-bottom: 0.2rem;
+}
