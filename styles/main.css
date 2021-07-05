@@ -6177,6 +6177,29 @@ readers do not read off random characters that represent icons */
 .bars-mid {
     margin-bottom: 0.2rem;
   }
+
+  .center-section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .center-section ul {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .center-section li {
+    list-style: none;
+    text-align: left;
+  }
+  .center-section img {
+    width: 3rem;
+    height: 3rem;
+  }
 }
 @media only screen and (min-width: 1281px) {
   .top-menu {
