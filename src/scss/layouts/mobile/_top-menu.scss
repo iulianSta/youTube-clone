@@ -6,7 +6,7 @@
   @include flex;
   justify-content: space-evenly;
   flex-flow: row wrap;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 
   ul {
     @include size;
@@ -35,3 +35,26 @@
   width: 1.5rem;
   height: 1.5rem;
 }
+
+.bars-menu {
+  width: 2rem;
+  height: 2rem;
+  border: red 1px solid;
+  @include flex;
+  flex-direction: column;
+}
+
+.bars-top,
+.bard-mid,
+.bars-bot {
+  width: 2rem;
+  height: 0.2rem;
+  background-color: black;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+// .bars-top,
+// .bard-mid {
+//   margin: 0.3rem 0 0.3rem 0;
+// }
