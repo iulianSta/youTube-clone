@@ -1,0 +1,21 @@
+.center-section {
+  width: 100vw;
+  @include flex;
+  flex-direction: column;
+
+  ul {
+    width: 100vw;
+    @include flex;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style: none;
+    text-align: left;
+  }
+
+  img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
