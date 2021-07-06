@@ -6978,6 +6978,7 @@ readers do not read off random characters that represent icons */
 
   .top-videos,
 .bottom-videos {
+    width: 65vw;
     display: flex;
     justify-content: center;
     align-items: center;
