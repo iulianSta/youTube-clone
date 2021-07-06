@@ -1,0 +1,58 @@
+// Top menu style
+.top-menu {
+  width: 100vw;
+  height: 10vh;
+  font-family: $roboto;
+  @include flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  margin: 2rem;
+
+  ul {
+    @include size;
+    @include flex;
+    justify-content: space-evenly;
+  }
+
+  li {
+    list-style: none;
+    padding: 0.5em;
+    &:nth-child(2) {
+      font-weight: bolder;
+
+      & > i {
+        color: $red;
+      }
+    }
+    sup {
+      font-weight: normal;
+    }
+  }
+}
+
+// User profile picture
+.my-profile {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.bars-menu {
+  width: 1.4rem;
+  height: 1rem;
+  @include flex;
+  flex-direction: column;
+}
+
+.bars-top,
+.bars-mid,
+.bars-bottom {
+  width: 1.4rem;
+  height: 0.2rem;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.bars-top,
+.bars-mid {
+  margin-bottom: 0.2rem;
+}
