@@ -8,7 +8,7 @@
     width: 68vw;
     @include flex;
     flex-direction: column;
-    margin-bottom: 0.2rem;
+    margin: 0.5rem;
 
     nav ul {
       @include flex;
@@ -27,7 +27,7 @@
     @include flex;
     justify-content: space-between;
     // flex-direction: column;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 
     div {
       width: 68vw;
