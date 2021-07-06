@@ -1,19 +1,20 @@
 .bottom-section {
-  width: 100vw;
+  width: 60vw;
   @include flex;
   flex-direction: column;
   text-align: left;
 
   .header {
-    width: 100vw;
+    width: 60vw;
     @include flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     // flex-direction: column;
     margin: 2rem;
 
     nav ul {
       @include flex;
       flex-direction: column;
+      margin: 1rem;
     }
   }
 
@@ -21,7 +22,7 @@
     width: 100vw;
     @include flex;
     flex-direction: column;
-    margin: 0rem;
+    margin: 1rem;
 
     div {
       width: 100vw;
