@@ -1,5 +1,5 @@
 .video-area {
-  width: 100vw;
+  width: 50vw;
   @include flex;
   flex-direction: column;
 
@@ -9,8 +9,8 @@
   }
 
   img {
-    width: 24rem;
-    height: 16rem;
+    width: 28rem;
+    height: 20rem;
   }
 
   div {
