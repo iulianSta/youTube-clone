@@ -1,20 +1,20 @@
 .bottom-section {
-  width: 80vw;
+  width: 68vw;
   @include flex;
   flex-direction: column;
   text-align: left;
 
   .header {
-    width: 80vw;
+    width: 68vw;
     @include flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 0.5rem;
 
     nav ul {
       @include flex;
       justify-content: space-evenly;
       // flex-direction: column;
-      margin: 1rem;
+      margin: 0.5rem;
 
       li {
         margin: 1.3rem;
@@ -23,25 +23,25 @@
   }
 
   .top-header {
-    width: 80vw;
+    width: 68vw;
     @include flex;
     justify-content: space-between;
     // flex-direction: column;
-    margin: 1rem;
+    margin: 0.5rem;
 
     div {
-      width: 100vw;
+      width: 68vw;
       @include flex;
       flex-direction: column;
-      margin: 2rem;
+      margin: 0.5rem;
     }
   }
 }
 
 .profile-area {
   @include flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
+  justify-content: space-evenly;
+  margin: 0.5rem;
 }
 .profile-picture {
   border-radius: 50%;

@@ -1,5 +1,5 @@
 .video-area {
-  width: 70vw;
+  width: 64vw;
   @include flex;
   flex-direction: column;
 
@@ -14,13 +14,13 @@
   }
 
   div {
-    margin: 1rem;
+    margin: 0.2rem;
   }
 }
 
 .top-videos,
 .bottom-videos {
   @include flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-start;
 }
