@@ -4,7 +4,7 @@
   flex-direction: column;
 
   ul {
-    width: 70vw;
+    width: 40vw;
     @include flex;
     justify-content: space-between;
   }
