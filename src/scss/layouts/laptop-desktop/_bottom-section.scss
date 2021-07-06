@@ -8,13 +8,13 @@
     width: 68vw;
     @include flex;
     flex-direction: column;
-    margin: 0.5rem;
+    margin-bottom: 0.2rem;
 
     nav ul {
       @include flex;
       justify-content: space-evenly;
       // flex-direction: column;
-      margin: 0.5rem;
+      margin-bottom: 0.2rem;
 
       li {
         margin: 1.3rem;
@@ -27,20 +27,21 @@
     @include flex;
     justify-content: space-between;
     // flex-direction: column;
-    margin: 0.5rem;
+    margin-bottom: 0.5rem;
 
     div {
       width: 68vw;
       @include flex;
       flex-direction: column;
-      margin: 0.5rem;
+      margin: 0.2rem;
     }
   }
 }
 
 .profile-area {
+  width: 53vw;
   @include flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 0.5rem;
 }
 .profile-picture {
