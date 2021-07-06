@@ -4,12 +4,13 @@
   align-items: flex-start;
 
   ul {
-    width: 15vw;
+    width: 13vw;
     @include flex;
     justify-content: space-between;
   }
 
   li {
+    height: 2.2rem;
     list-style: none;
     text-align: left;
   }
