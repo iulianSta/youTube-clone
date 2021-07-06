@@ -1,11 +1,11 @@
 .video-area {
-  width: 70vw;
+  width: 65vw;
   @include flex;
   flex-direction: column;
 
   p {
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 0.2rem;
   }
 
   img {
@@ -14,7 +14,7 @@
   }
 
   div {
-    margin: 1rem;
+    margin: 0.7rem;
   }
 }
 
