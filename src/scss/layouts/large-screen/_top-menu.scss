@@ -9,9 +9,10 @@
   margin: 2rem;
 
   ul {
+    width: 100vw;
     @include size;
     @include flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   li {
