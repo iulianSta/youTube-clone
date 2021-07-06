@@ -1,12 +1,12 @@
 // Top menu style
 .top-menu {
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
   font-family: $roboto;
   @include flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-flow: row wrap;
-  margin-bottom: 2rem;
+  margin: 2rem;
 
   ul {
     @include size;
