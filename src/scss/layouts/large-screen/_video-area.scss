@@ -20,6 +20,7 @@
 
 .top-videos,
 .bottom-videos {
+  width: 65vw;
   @include flex;
   justify-content: space-evenly;
   align-items: flex-start;
