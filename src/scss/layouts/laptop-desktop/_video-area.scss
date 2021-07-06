@@ -1,0 +1,25 @@
+.video-area {
+  width: 100vw;
+  @include flex;
+  flex-direction: column;
+
+  p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 24rem;
+    height: 16rem;
+  }
+
+  div {
+    margin-bottom: 1rem;
+  }
+}
+
+.top-videos,
+.bottom-videos {
+  @include flex;
+  flex-direction: column;
+}

@@ -1,0 +1,7 @@
+// Media Query for Laptop and Desktop Devices
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  @import "./top-menu";
+  @import "./center-section";
+  @import "./bottom-section";
+  @import "./video-area";
+}

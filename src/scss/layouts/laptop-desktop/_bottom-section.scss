@@ -1,0 +1,43 @@
+.bottom-section {
+  width: 60vw;
+  @include flex;
+  flex-direction: column;
+  text-align: left;
+
+  .header {
+    width: 60vw;
+    @include flex;
+    flex-direction: column;
+    // flex-direction: column;
+    margin: 2rem;
+
+    nav ul {
+      @include flex;
+      flex-direction: column;
+      margin: 1rem;
+    }
+  }
+
+  .top-header {
+    width: 100vw;
+    @include flex;
+    flex-direction: column;
+    margin: 1rem;
+
+    div {
+      width: 100vw;
+      @include flex;
+      flex-direction: column;
+      margin: 1rem;
+    }
+  }
+}
+
+.profile-area {
+  @include flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.profile-picture {
+  border-radius: 50%;
+}
