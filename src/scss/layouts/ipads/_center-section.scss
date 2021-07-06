@@ -1,7 +1,6 @@
 .center-section {
   width: 100vw;
   @include flex;
-  // flex-direction: column;
   align-items: flex-start;
 
   ul {
