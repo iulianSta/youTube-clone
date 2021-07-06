@@ -1,5 +1,5 @@
 .video-area {
-  width: 100vw;
+  width: 70vw;
   @include flex;
   flex-direction: column;
 
@@ -9,17 +9,18 @@
   }
 
   img {
-    width: 24rem;
-    height: 16rem;
+    width: 8rem;
+    height: 5rem;
   }
 
   div {
-    margin-bottom: 1rem;
+    margin: 1rem;
   }
 }
 
 .top-videos,
 .bottom-videos {
   @include flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
