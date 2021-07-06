@@ -677,7 +677,7 @@ img {
   }
 
   .video-area {
-    width: 100vw;
+    width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -688,11 +688,11 @@ img {
     margin-bottom: 1rem;
   }
   .video-area img {
-    width: 24rem;
-    height: 16rem;
+    width: 8rem;
+    height: 5rem;
   }
   .video-area div {
-    margin-bottom: 1rem;
+    margin: 1rem;
   }
 
   .top-videos,
@@ -700,114 +700,177 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
   }
 }
 @media only screen and (min-width: 1281px) {
   .top-menu {
-    border: red dashed 1px;
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .top-menu div ul {
-    width: 33vw;
-    height: 5vh;
-    border: deepskyblue solid 1px;
+    width: 100vw;
+    height: 10vh;
+    font-family: "Roboto", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin: 0.5rem;
   }
-
-  .top-menu div ul li {
-    border: olive dashed 1px;
+  .top-menu ul {
+    width: 100vw;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .top-menu li {
     list-style: none;
+    padding: 0.5em;
+  }
+  .top-menu li:nth-child(2) {
+    font-weight: bolder;
+  }
+  .top-menu li:nth-child(2) > i {
+    color: red;
+  }
+  .top-menu li sup {
+    font-weight: normal;
   }
 
   .my-profile {
-    width: 2vw;
-    height: 3vh;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .bars-menu {
+    width: 1.4rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .bars-top,
+.bars-mid,
+.bars-bottom {
+    width: 1.4rem;
+    height: 0.2rem;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .bars-top,
+.bars-mid {
+    margin-bottom: 0.2rem;
   }
 
   .center-section {
-    width: 100%;
-    height: 95vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: row;
-  }
-
-  .left-side-menu {
-    border: red dashed 1px;
-    width: 15%;
-    height: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    align-items: flex-start;
   }
-
-  .left-side-menu div ol {
-    width: 100%;
-    height: 100%;
-  }
-
-  .left-side-menu div ol ul {
-    border: dimgrey solid 1px;
-    width: 15vw;
-    height: 5.4vh;
+  .center-section ul {
+    width: 13vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    justify-content: space-between;
   }
-
-  .left-side-menu div ol ul li {
+  .center-section li {
+    height: 2.7rem;
     list-style: none;
+    text-align: left;
+  }
+  .center-section .img-inner-left {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+  .center-section h3 {
+    margin-bottom: 1rem;
   }
 
-  .img-inner-left {
-    width: 1vw;
-    height: 2vh;
+  .left-side-menu div {
+    margin-bottom: 1rem;
   }
 
   .bottom-section {
-    width: 100%;
-    height: 100%;
-    border: deeppink 1px dashed;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header {
-    border: dodgerblue 1px solid;
+    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: left;
+  }
+  .bottom-section .header {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+  .bottom-section .header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+  }
+  .bottom-section .header nav ul li {
+    margin: 1.3rem;
+  }
+  .bottom-section .top-header {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+  }
+  .bottom-section .top-header div {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem;
+  }
+
+  .profile-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
   }
 
   .profile-picture {
-    width: 5vw;
-    height: 7vh;
-  }
-
-  .top-videos div img,
-.bottom-videos div img {
-    width: 15vw;
-    height: 15vh;
+    border-radius: 50%;
   }
 
   .video-area {
+    width: 70vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .video-area p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .video-area img {
+    width: 8rem;
+    height: 5rem;
+  }
+  .video-area div {
+    margin: 1rem;
   }
 
   .top-videos,
@@ -815,7 +878,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
   }
 }
 
