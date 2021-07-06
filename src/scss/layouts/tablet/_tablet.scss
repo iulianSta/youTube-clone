@@ -1,0 +1,7 @@
+// Media Query for Mobile Devices
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  @import "./top-menu";
+  @import "./center-section";
+  @import "./bottom-section";
+  @import "./video-area";
+}
