@@ -77,6 +77,15 @@ img {
     margin-bottom: 0.2rem;
   }
 
+  .fa-search,
+.fa-microphone {
+    color: aliceblue;
+    background: black;
+    border-radius: 2px;
+    padding: 2px;
+    border: none;
+  }
+
   .center-section {
     width: 100vw;
     display: flex;
@@ -269,6 +278,15 @@ img {
   .bars-top,
 .bars-mid {
     margin-bottom: 0.2rem;
+  }
+
+  .fa-search,
+.fa-microphone {
+    color: aliceblue;
+    background: black;
+    border-radius: 2px;
+    padding: 2px;
+    border: none;
   }
 
   .center-section {
@@ -465,6 +483,15 @@ img {
     margin-bottom: 0.2rem;
   }
 
+  .fa-search,
+.fa-microphone {
+    color: aliceblue;
+    background: black;
+    border-radius: 2px;
+    padding: 2px;
+    border: none;
+  }
+
   .center-section {
     width: 100vw;
     display: flex;
@@ -631,6 +658,11 @@ img {
   .top-menu li sup {
     font-weight: normal;
   }
+  .top-menu i,
+.top-menu img,
+.top-menu input[type=button] {
+    cursor: pointer;
+  }
 
   .my-profile {
     width: 1.5rem;
@@ -660,6 +692,15 @@ img {
     margin-bottom: 0.2rem;
   }
 
+  .fa-search,
+.fa-microphone {
+    color: aliceblue;
+    background: black;
+    border-radius: 2px;
+    padding: 2px;
+    border: none;
+  }
+
   .center-section {
     width: 100vw;
     display: flex;
@@ -686,6 +727,22 @@ img {
   }
   .center-section h3 {
     margin-bottom: 0.3rem;
+  }
+  .center-section i,
+.center-section img,
+.center-section input {
+    cursor: pointer;
+  }
+
+  .left-side-menu li {
+    cursor: pointer;
+  }
+  .left-side-menu ul:hover {
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
   }
 
   .left-side-menu div {
@@ -833,6 +890,11 @@ img {
   .top-menu li sup {
     font-weight: normal;
   }
+  .top-menu i,
+.top-menu img,
+.top-menu input[type=button] {
+    cursor: pointer;
+  }
 
   .my-profile {
     width: 1.5rem;
@@ -862,6 +924,15 @@ img {
     margin-bottom: 0.2rem;
   }
 
+  .fa-search,
+.fa-microphone {
+    color: aliceblue;
+    background: black;
+    border-radius: 2px;
+    padding: 2px;
+    border: none;
+  }
+
   .center-section {
     width: 100vw;
     display: flex;
@@ -888,6 +959,22 @@ img {
   }
   .center-section h3 {
     margin-bottom: 0.3rem;
+  }
+  .center-section i,
+.center-section img,
+.center-section input {
+    cursor: pointer;
+  }
+
+  .left-side-menu li {
+    cursor: pointer;
+  }
+  .left-side-menu ul:hover {
+    font-weight: bold;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
   }
 
   .left-side-menu div {
