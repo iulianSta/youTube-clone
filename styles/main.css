@@ -159,6 +159,28 @@ img {
     border-radius: 50%;
   }
 
+  .fa-youtube {
+    color: red;
+  }
+
+  .fa-facebook-square,
+.fa-twitter {
+    color: #0c98f5;
+  }
+
+  .fa-instagram {
+    padding: 1.5px;
+    color: aliceblue;
+    background: linear-gradient(to right, orange, violet);
+    border-radius: 2px;
+  }
+
+  .fa-spotify {
+    color: yellowgreen;
+    background-color: black;
+    border-radius: 100%;
+  }
+
   .video-area {
     width: 100vw;
     display: flex;
@@ -329,6 +351,28 @@ img {
 
   .profile-picture {
     border-radius: 50%;
+  }
+
+  .fa-youtube {
+    color: red;
+  }
+
+  .fa-facebook-square,
+.fa-twitter {
+    color: #0c98f5;
+  }
+
+  .fa-instagram {
+    padding: 1.5px;
+    color: aliceblue;
+    background: linear-gradient(to right, orange, violet);
+    border-radius: 2px;
+  }
+
+  .fa-spotify {
+    color: yellowgreen;
+    background-color: black;
+    border-radius: 100%;
   }
 
   .video-area {
@@ -502,6 +546,28 @@ img {
 
   .profile-picture {
     border-radius: 50%;
+  }
+
+  .fa-youtube {
+    color: red;
+  }
+
+  .fa-facebook-square,
+.fa-twitter {
+    color: #0c98f5;
+  }
+
+  .fa-instagram {
+    padding: 1.5px;
+    color: aliceblue;
+    background: linear-gradient(to right, orange, violet);
+    border-radius: 2px;
+  }
+
+  .fa-spotify {
+    color: yellowgreen;
+    background-color: black;
+    border-radius: 100%;
   }
 
   .video-area {
@@ -680,6 +746,28 @@ img {
 
   .profile-picture {
     border-radius: 50%;
+  }
+
+  .fa-youtube {
+    color: red;
+  }
+
+  .fa-facebook-square,
+.fa-twitter {
+    color: #0c98f5;
+  }
+
+  .fa-instagram {
+    padding: 1.5px;
+    color: aliceblue;
+    background: linear-gradient(to right, orange, violet);
+    border-radius: 2px;
+  }
+
+  .fa-spotify {
+    color: yellowgreen;
+    background-color: black;
+    border-radius: 100%;
   }
 
   .video-area {
@@ -877,7 +965,7 @@ img {
   }
 
   .fa-spotify {
-    color: greenyellow;
+    color: yellowgreen;
     background-color: black;
     border-radius: 100%;
   }
