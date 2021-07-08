@@ -29,6 +29,12 @@
       font-weight: normal;
     }
   }
+
+  i,
+  img,
+  input[type="button"] {
+    cursor: pointer;
+  }
 }
 
 // User profile picture

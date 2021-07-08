@@ -32,6 +32,22 @@
   }
 }
 
+.left-side-menu {
+  li {
+    cursor: pointer;
+  }
+
+  ul {
+    &:hover {
+      font-weight: bold;
+      color: $alice;
+      background-color: $black;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+}
+
 .left-side-menu div {
   margin-bottom: 0.3rem;
 }
