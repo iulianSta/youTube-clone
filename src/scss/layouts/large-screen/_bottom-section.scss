@@ -56,13 +56,13 @@
 
 .fa-instagram {
   padding: 1.5px;
-  color: aliceblue;
-  background: linear-gradient(to right, orange, violet);
+  color: $alice;
+  background: linear-gradient(to right, $orange, $violet);
   border-radius: 2px;
 }
 
 .fa-spotify {
-  color: greenyellow;
-  background-color: black;
+  color: $ygreen;
+  background-color: $black;
   border-radius: 100%;
 }
