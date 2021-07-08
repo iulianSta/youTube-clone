@@ -173,6 +173,7 @@ img {
   .video-area img {
     width: 12rem;
     height: 8rem;
+    border-radius: 1rem;
   }
   .video-area div {
     margin-bottom: 1rem;
@@ -344,6 +345,7 @@ img {
   .video-area img {
     width: 22rem;
     height: 16rem;
+    border-radius: 1rem;
   }
   .video-area div {
     margin-bottom: 1rem;
@@ -516,6 +518,7 @@ img {
   .video-area img {
     width: 28rem;
     height: 20rem;
+    border-radius: 1rem;
   }
   .video-area div {
     margin-bottom: 1rem;
@@ -693,6 +696,7 @@ img {
   .video-area img {
     width: 8rem;
     height: 5rem;
+    border-radius: 1rem;
   }
   .video-area div {
     margin: 0.2rem;
@@ -856,6 +860,28 @@ img {
     border-radius: 50%;
   }
 
+  .fa-youtube {
+    color: red;
+  }
+
+  .fa-facebook-square,
+.fa-twitter {
+    color: #0c98f5;
+  }
+
+  .fa-instagram {
+    padding: 1.5px;
+    color: aliceblue;
+    background: linear-gradient(to right, orange, violet);
+    border-radius: 2px;
+  }
+
+  .fa-spotify {
+    color: greenyellow;
+    background-color: black;
+    border-radius: 100%;
+  }
+
   .video-area {
     width: 65vw;
     display: flex;
@@ -870,6 +896,7 @@ img {
   .video-area img {
     width: 12rem;
     height: 8rem;
+    border-radius: 1rem;
   }
   .video-area div {
     margin: 0.3rem;
