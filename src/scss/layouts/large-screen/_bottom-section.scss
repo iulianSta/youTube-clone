@@ -5,10 +5,17 @@
   text-align: left;
 
   .header {
-    width: 80vw;
+    width: 74vw;
     @include flex;
     flex-direction: column;
     margin-bottom: 0.5rem;
+    border-radius: 5px;
+    color: $alice;
+    background: url(../../../images/img/pretty-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
     nav ul {
       width: 70vw;
@@ -18,7 +25,7 @@
       margin: 1rem;
 
       & :nth-child(2) {
-        border-bottom: $black 2px solid;
+        border-bottom: $alice 2px solid;
       }
 
       li {

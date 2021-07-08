@@ -7,13 +7,25 @@
   .header {
     width: 100vw;
     @include flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     // flex-direction: column;
     margin: 2rem;
+    border-radius: 5px;
+    color: $alice;
+    background: url(../../../images/img/pretty-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
     nav ul {
       @include flex;
       flex-direction: column;
+      margin: 1rem;
+
+      & :nth-child(2) {
+        border-bottom: $alice 1px solid;
+      }
     }
   }
 
