@@ -17,6 +17,7 @@
   li {
     list-style: none;
     padding: 0.5rem;
+
     &:nth-child(2) {
       font-weight: bolder;
 
@@ -48,11 +49,20 @@
 .bars-bottom {
   width: 1.4rem;
   height: 0.2rem;
-  background-color: black;
+  background-color: $black;
   border-radius: 10px;
 }
 
 .bars-top,
 .bars-mid {
   margin-bottom: 0.2rem;
+}
+
+.fa-search,
+.fa-microphone {
+  color: $alice;
+  background: $black;
+  border-radius: 2px;
+  padding: 2px;
+  border: none;
 }

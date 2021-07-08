@@ -57,3 +57,12 @@
 .bars-mid {
   margin-bottom: 0.2rem;
 }
+
+.fa-search,
+.fa-microphone {
+  color: $alice;
+  background: $black;
+  border-radius: 2px;
+  padding: 2px;
+  border: none;
+}
