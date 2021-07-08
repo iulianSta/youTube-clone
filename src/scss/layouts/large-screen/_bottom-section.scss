@@ -16,6 +16,14 @@
       justify-content: space-evenly;
       // flex-direction: column;
       margin: 1rem;
+
+      & :nth-child(2) {
+        border-bottom: $black 2px solid;
+      }
+
+      li {
+        cursor: pointer;
+      }
     }
   }
 

@@ -16,8 +16,13 @@
       // flex-direction: column;
       margin-bottom: 0.2rem;
 
+      & :nth-child(2) {
+        border-bottom: $black 2px solid;
+      }
+
       li {
         margin: 1.3rem;
+        cursor: pointer;
       }
     }
   }
