@@ -132,12 +132,23 @@ img {
     align-items: center;
     flex-direction: column;
     margin-bottom: 3rem;
+    border-radius: 5px;
+    color: aliceblue;
+    background: url(../../../images/img/pretty-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .bottom-section .header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 1rem;
+  }
+  .bottom-section .header nav ul :nth-child(2) {
+    border-bottom: aliceblue 1px solid;
   }
   .bottom-section .top-header {
     width: 100vw;
@@ -333,14 +344,25 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
+    flex-direction: column;
     margin: 2rem;
+    border-radius: 5px;
+    color: aliceblue;
+    background: url(../../../images/img/pretty-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .bottom-section .header nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 1rem;
+  }
+  .bottom-section .header nav ul :nth-child(2) {
+    border-bottom: aliceblue 1px solid;
   }
   .bottom-section .top-header {
     width: 100vw;
@@ -532,12 +554,19 @@ img {
     text-align: left;
   }
   .bottom-section .header {
-    width: 60vw;
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0.5rem;
+    border-radius: 5px;
+    color: aliceblue;
+    background: url(../../../images/img/pretty-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .bottom-section .header nav ul {
     display: flex;
@@ -545,6 +574,9 @@ img {
     align-items: center;
     flex-direction: column;
     margin: 0.5rem;
+  }
+  .bottom-section .header nav ul :nth-child(2) {
+    border-bottom: aliceblue 1px solid;
   }
   .bottom-section .top-header {
     width: 100vw;
@@ -758,12 +790,19 @@ img {
     text-align: left;
   }
   .bottom-section .header {
-    width: 68vw;
+    width: 64vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 0.5rem;
+    border-radius: 5px;
+    color: aliceblue;
+    background: url(../../../images/img/pretty-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .bottom-section .header nav ul {
     display: flex;
@@ -773,7 +812,7 @@ img {
     margin-bottom: 0.2rem;
   }
   .bottom-section .header nav ul :nth-child(2) {
-    border-bottom: black 2px solid;
+    border-bottom: aliceblue 2px solid;
   }
   .bottom-section .header nav ul li {
     margin: 1.3rem;
@@ -994,12 +1033,19 @@ img {
     text-align: left;
   }
   .bottom-section .header {
-    width: 80vw;
+    width: 74vw;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 0.5rem;
+    border-radius: 5px;
+    color: aliceblue;
+    background: url(../../../images/img/pretty-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   }
   .bottom-section .header nav ul {
     width: 70vw;
@@ -1010,7 +1056,7 @@ img {
     margin: 1rem;
   }
   .bottom-section .header nav ul :nth-child(2) {
-    border-bottom: black 2px solid;
+    border-bottom: aliceblue 2px solid;
   }
   .bottom-section .header nav ul li {
     cursor: pointer;
