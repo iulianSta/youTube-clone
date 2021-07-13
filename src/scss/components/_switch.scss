@@ -3,4 +3,9 @@
 .dark {
   color: $alice;
   background-color: $black;
+  .bars-top,
+  .bars-mid,
+  .bars-bottom {
+    background-color: $alice;
+  }
 }
