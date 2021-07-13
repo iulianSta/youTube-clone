@@ -1,0 +1,27 @@
+// X menu setup
+.x-menu {
+  .bars-top,
+  .bars-mid,
+  .bars-bottom {
+    position: absolute;
+  }
+  .bars-mid {
+    display: none;
+  }
+  .bars-top {
+    transform: rotate(45deg);
+  }
+  .bars-bottom {
+    transform: rotate(-45deg);
+  }
+}
+
+// Close menu setup
+.close {
+  width: 10vw;
+  ul {
+    & :nth-child(2) {
+      display: none;
+    }
+  }
+}
