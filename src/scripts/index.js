@@ -4,6 +4,8 @@
 const menu = document.querySelector(".bars-menu");
 const sideMenu = document.querySelector(".left-side-menu");
 
+const switchButton = document.querySelector(".switch");
+
 let close = false;
 
 const openCloseMenu = () => {
@@ -18,4 +20,18 @@ const openCloseMenu = () => {
   }
 };
 
+let clicked = false;
+
+const switchTo = () => {
+  clicked = !clicked;
+  if (clicked) {
+    switchButton.classList.remove("fa-toggle-off");
+    switchButton.classList.add("fa-toggle-on");
+  } else {
+    switchButton.classList.remove("fa-toggle-on");
+    switchButton.classList.add("fa-toggle-off");
+  }
+};
+
 menu.addEventListener("click", openCloseMenu);
+switchButton.addEventListener("click", switchTo);
