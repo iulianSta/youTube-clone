@@ -37,6 +37,11 @@ img {
   display: none;
 }
 
+.dark {
+  color: aliceblue;
+  background-color: black;
+}
+
 @media (max-width: 480px) {
   .top-menu {
     width: 100vw;
