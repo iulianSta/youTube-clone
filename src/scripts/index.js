@@ -9,10 +9,11 @@ let close = false;
 const openCloseMenu = () => {
   close = !close;
   if (close) {
-    menu.classList.add("x-menu");
+    menu.classList.remove("x-menu");
+
     sideMenu.classList.add("close");
   } else {
-    menu.classList.remove("x-menu");
+    menu.classList.add("x-menu");
     sideMenu.classList.remove("close");
   }
 };
