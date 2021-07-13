@@ -41,6 +41,11 @@ img {
   color: aliceblue;
   background-color: black;
 }
+.dark .bars-top,
+.dark .bars-mid,
+.dark .bars-bottom {
+  background-color: aliceblue;
+}
 
 @media (max-width: 480px) {
   .top-menu {
