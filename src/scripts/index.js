@@ -3,6 +3,7 @@
 
 const menu = document.querySelector(".bars-menu");
 const sideMenu = document.querySelector(".left-side-menu");
+const body = document.querySelector("body");
 
 const switchButton = document.querySelector(".switch");
 
@@ -27,9 +28,11 @@ const switchTo = () => {
   if (clicked) {
     switchButton.classList.remove("fa-toggle-off");
     switchButton.classList.add("fa-toggle-on");
+    body.classList.add("dark");
   } else {
     switchButton.classList.remove("fa-toggle-on");
     switchButton.classList.add("fa-toggle-off");
+    body.classList.remove("dark");
   }
 };
 
