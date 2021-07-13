@@ -15,6 +15,28 @@ img {
   height: 5rem;
 }
 
+.x-menu .bars-top,
+.x-menu .bars-mid,
+.x-menu .bars-bottom {
+  position: absolute;
+}
+.x-menu .bars-mid {
+  display: none;
+}
+.x-menu .bars-top {
+  transform: rotate(45deg);
+}
+.x-menu .bars-bottom {
+  transform: rotate(-45deg);
+}
+
+.close {
+  width: 10vw;
+}
+.close ul :nth-child(2) {
+  display: none;
+}
+
 @media (max-width: 480px) {
   .top-menu {
     width: 100vw;
